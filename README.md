@@ -1,13 +1,14 @@
-<h1 align="center">✨ 𝗝𝗨𝗕𝗔𝗬𝗘𝗥 𝗕𝗢𝗧 𝗨𝗦𝗘𝗥𝗦 !!! ✨</h1>
+<h1 align="center">✨ 𝙅𝙐𝘽𝘼𝙔𝙀𝙍 𝘽𝙊𝙏 𝙐𝙎𝙀𝙍𝙎 ✨</h1>
 
 <p align="center">
   <img src="https://i.postimg.cc/xjHJhX9H/prefix.gif" width="320" alt="Coding GIF">
 </p>
 
-<p align="center"><b>Smart • Powerful • User-Friendly</b></p>
+<p align="center"><b>⚡ Smart • 💪 Powerful • 🎯 User-Friendly</b></p>
 
 ---
-**NEW COMMAND RULES?**
+
+## 🛠️ 𝗡𝗘𝗪 𝗖𝗢𝗠𝗠𝗔𝗡𝗗 𝗦𝗧𝗥𝗨𝗖𝗧𝗨𝗥𝗘
 
 ```js
 module.exports.config = {
@@ -16,49 +17,75 @@ module.exports.config = {
   hasPermission: 0,
   credits: "<Author>",
   description: "<Command Description>",
-  usePrefix: true, // Set to true to enable the use of prefix while false if not.
-  allowPrefix: true, // Set to true to allow prefix even if usePrefix is false, this doesn't do anything if the usePrefix is true.
+  usePrefix: true,
+  allowPrefix: true,
   commandCategory: "other",
-  cooldowns: 5 // seconds to activate again
+  cooldowns: 5
 };
 
 module.exports.run = function ({ api, event, message }) {
-  // Your command logic here
-  // You can access the event object (event) and the api object (api), and the message object (message) within the function.
-  // You can use the api object to send messages, get user information, and perform other actions.
-  // You can also use message methods.
+  // 🚀 Your command logic here
+
+  // 📤 Send message
   // message.send("Hello, user!", event.threadID);
+
+  // 💬 Quick reply
   // message.reply("Hello, world!");
+
+  // ❤️ React to message
   // message.react("❤️");
-  // message.edit("new text"); edits the last send text (make sure message.send or message.reply is awaited)
-  // const { [event.senderID]: userInfo } = await api.getUserInfo(event.senderID); for getting user info, it has .name properties.
-} `
+
+  // ✏️ Edit last message (only if awaited)
+  // message.edit("new text");
+
+  // 👤 Get user info
+  // const { [event.senderID]: userInfo } = await api.getUserInfo(event.senderID);
+  // console.log(userInfo.name);
+};
+```
 
 ---
 
-📌 Features
+## 🌟 𝗙𝗘𝗔𝗧𝗨𝗥𝗘𝗦
 
-- 🧠 Smart & Fast AI Response  
-- 🎵 YouTube Music & Video Downloader  
-- 📂 File Upload & Share System  
-- 🖼️ Image Tools (Blur, QR, Upload)  
-- 🤖 Auto Chat & Simsimi-like Learning  
-- 💬 Custom Commands & Responses  
-- 🧰 Fully Compatible with GoatBot V2  
-- 🌐 API Integrated Functions  
-
----
-<h3> 𝗥𝗘𝗔𝗟 𝗗𝗘𝗩𝗟𝗢𝗣𝗘𝗥 𝗔𝗡𝗗 𝗘𝗗𝗜𝗧𝗢𝗥 𝗗𝗘𝗧𝗔𝗜𝗟𝗦 </h3>
-<pre> REAL DEV:YANDEVA
-      EDITOR :JUBAYER AHMED
-
-𝗬𝗮𝗛𝗵𝗵, Iam Not a Devloper IAm Simple Editorrr.
-</pre>
+✅ AI Auto Chat & Simsimi-like Learning  
+✅ 🎵 YouTube Video & Audio Downloader  
+✅ 📤 File Upload & Public Sharing  
+✅ 🖼️ Image Tools (QR, Blur, Upload)  
+✅ 🔧 Custom Commands Support  
+✅ ⚙️ Compatible with GoatBot V2    
 
 ---
 
+## 👨‍💻 𝗔𝗕𝗢𝗨𝗧 𝗗𝗘𝗩 & 𝗘𝗗𝗜𝗧𝗢𝗥
 
-### 📥 Clone the Repository
+```txt
+👑 REAL DEV  : YANDEVA
+🛠️ EDITOR    : JUBAYER AHMED
+
+💬 Yahhh, I am not a Developer — just a passionate Editor! 💻
+```
+
+---
+
+## 📂 𝗛𝗢𝗪 𝗧𝗢 𝗨𝗦𝗘
+
+📥 Clone the repository by running:
 
 ```bash
-git clone https://github.com/MR-JUBAYER-99/Jubayer-Bot.git
+https://github.com/HXXJUBAYER/Jubayer-Bot.git
+```
+
+📌 Then follow the setup instructions in the repo.
+
+---
+
+## 📢 𝗦𝗧𝗔𝗬 𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗘𝗗
+
+- 🌍 Facebook: [fb.com/jubayer](https://www.facebook.com/profile.php?id=61554533460706)  
+- 🧑‍💻 GitHub: [github](https://github.com/HXXJUBAYER/)  
+- 💬 Bot Support: Coming soon...
+
+---
+
+<h4 align="center">✨ 𝚃𝚑𝚊𝚗𝚔𝚜 𝚏𝚘𝚛 𝚄𝚜𝚒𝚗𝚐 𝙹𝚄𝙱𝙰𝚈𝙴𝚁 𝙱𝙾𝚃 ✨</h4>
