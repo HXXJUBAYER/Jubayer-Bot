@@ -82,14 +82,14 @@ module.exports = function ({ api }) {
   const v = pkg.version;
   axios
     .get(
-      "https://raw.githubusercontent.com/MR-JUBAYER-99/Jubayer-Bot/refs/heads/main/package.json",
+      "https://raw.githubusercontent.com/HXXJUBAYER/Jubayer-Bot/refs/heads/main/package.json",
     )
     .then((response) => {
       const gitVersion = response.data.version;
 
       if (compareVersions(gitVersion, v) > 0) {
         global.loading.log(
-          `Version ${co(gitVersion)} is available! Consider checking out '${cb("https://github.com/MR-JUBAYER-99/Jubayer-Bot")}' for the latest updates.`,
+          `Version ${co(gitVersion)} is available! Consider checking out '${cb("https://github.com/HXXJUBAYER/Jubayer-Bot")}' for the latest updates.`,
           "UPDATE",
         );
       } else {
