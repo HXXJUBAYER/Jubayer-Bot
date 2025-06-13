@@ -65,12 +65,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MR-JUBAYER-99/Jubayer-Bot.git"
+    "url": "git+https://github.com/HXX-JUBAYER/Jubayer-Bot.git"
   },
   "bugs": {
-    "url": "https://github.com/MR-JUBAYER-99/issues"
+    "url": "https://github.com/HXX-JUBAYER/issues"
   },
-  "homepage": "https://github.com/MR-JUBAYER-99#readme",
+  "homepage": "https://github.com/HXX-JUBAYER#readme",
   "devDependencies": {
     "@babel/cli": "^7.23.9",
     "@babel/core": "^7.24.0",
