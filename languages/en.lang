@@ -1,0 +1,82 @@
+# If you want to move down the line, please use \n. e.g: SpermLord\nCatalizcs.
+# After changed, you have to restart the bot to use.
+# Put the # character at the beginning of each sentence if you don't want the code to run those lines. 
+# Added more text by Jubayer Ahmed! Some may not be visible from other files if they don't have this file.
+
+# includes/listen.js
+
+listen.startLoadEnvironment=🚀 Proceeding to load environment variable...
+listen.loadedEnvironmentThread=✅ Thread environment loaded successfully!
+listen.loadedEnvironmentUser=✅ User environment loaded successfully!
+listen.successLoadEnvironment=🎉 Environment variables loaded successfully!
+listen.failLoadEnvironment=❌ Failed to load environment variable. Error: %1
+
+# includes/controller/currencies.js
+
+currencies.needObjectOrArray=⚠️ Expected an Array or an Object (or both).
+currencies.needObject=⚠️ Expected an Object.
+currencies.needNumber=🔢 Value must be a number.
+
+# includes/controller/threads.js
+
+threads.needObjectOrArray=⚠️ Expected an Array or an Object (or both).
+threads.needObject=⚠️ Expected an Object.
+
+# includes/controller/users.js
+
+users.needObjectOrArray=⚠️ Expected an Array or an Object (or both).
+users.needObject=⚠️ Expected an Object.
+
+# includes/handle/handleCommand.js
+
+handleCommand.userBanned=🚫 You are banned from using the bot!
+📝 Reason: %1
+⏱ Until: %2
+handleCommand.threadBanned=🚫 This thread is banned from using the bot!
+📝 Reason: %1
+⏱ Until: %2
+handleCommand.commandNotExist=❓ The command "%1" does not exist.
+handleCommand.commandThreadBanned=🚫 This thread is not allowed to use the "%1" command.
+handleCommand.commandUserBanned=🚫 You are not allowed to use the "%1" command.
+handleCommand.threadNotAllowNSFW=🔞 NSFW commands are not allowed in this thread.
+handleCommand.cantGetInfoThread=❌ Failed to retrieve thread info. Error: %1
+handleCommand.permissionNotEnough=⛔ You don't have permission to use the "%1" command.
+handleCommand.cantSetMessageReaction=⚠️ Error setting message reaction. Details: %1
+handleCommand.executeCommand=🧾 [ %1 ] Command: %2 | 👤 User: %3 | 💬 Thread: %4 | 🧩 Args: %5 | ⏱ Time: %6ms
+handleCommand.commandError=❌ Error executing command %1. Details: %2
+handleCommand.notMatched=⚠️ This command does not require a prefix.
+handleCommand.noPrefix=ℹ️ This command lacks a "usePrefix" configuration.
+handleCommand.commandNotFound=❓ Command not found.
+handleCommand.notFoundLanguage=🌐 Language not found. Please check available languages.
+
+# includes/handle/handleCommandEvent.js
+
+handleCommandEvent.moduleError=❌ Error executing command %1. Details: %2
+
+# includes/handle/handleCreateDatabase.js
+
+handleCreateDatabase.newThread=🆕 New thread initialized: %1
+handleCreateDatabase.newUser=🆕 New user added: %1
+
+# includes/handle/handleEvent.js
+
+handleEvent.executeEvent=📩 [ %1 ] Event: %2 | 💬 Thread: %3 | ⏱ Time: %4ms
+handleEvent.eventError=❌ Error in event %1. Details: %12
+
+# includes/handle/handleReaction.js
+
+handleReaction.missingValue=⚠️ Missing value for your reaction.
+handleReaction.executeError=❌ Error handling reaction. Details: %1
+
+# includes/handle/handleReply.js
+
+handleReply.missingValue=⚠️ Missing value for your reply.
+handleReply.executeError=❌ Error handling reply. Details: %1
+
+# includes/handle/handleSchedule.js
+
+handleSchedule.exectuteError=❌ Error in schedule module %1. Details: %2
+
+# utils/index.js
+
+utils.throwError=⚠️ Invalid syntax! Please use: %1help %2 for correct usage.

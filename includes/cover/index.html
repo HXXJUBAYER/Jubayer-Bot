@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JUBAYER BOT USERS !!!</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background: linear-gradient(135deg, #000000, #1a1a1a, #0d0d0d);
+      background-size: 400% 400%;
+      animation: bgMove 15s ease infinite;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: 'Courier New', monospace;
+      overflow: hidden;
+      opacity: 0;
+      animation: fadeIn 2s forwards, bgMove 15s ease infinite;
+    }
+
+    @keyframes bgMove {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    .top-space {
+      height: 40px;
+    }
+
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid orange;
+      box-shadow: 0 0 20px orange;
+      object-fit: cover;
+      margin-top: 30px;
+    }
+
+    .user-text {
+      margin-top: 10px;
+      font-size: 1.3em;
+      color: #FFA500;
+      font-weight: bold;
+      text-shadow: 0 0 5px #FF8C00;
+    }
+
+    .naruto-text {
+      margin-top: 40px;
+      color: orange;
+      font-size: 2.5em; /* Smaller font size */
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      border-right: 4px solid orange;
+      white-space: nowrap;
+      overflow: hidden;
+      width: 0;
+      animation: typing 3s steps(6) forwards, blink 0.75s step-end infinite, zoom 3s ease-in-out infinite;
+      text-shadow:
+        0 0 10px #FFA500,
+        0 0 20px #FF8C00,
+        0 0 30px #FF4500;
+    }
+
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 7ch }
+    }
+
+    @keyframes blink {
+      50% { border-color: transparent; }
+    }
+
+    @keyframes zoom {
+      0%, 100% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.1);
+      }
+    }
+
+    /* Animation for the content loading in */
+    .content {
+      opacity: 0;
+      animation: contentAppear 3s ease-in-out forwards 3s;
+    }
+
+    @keyframes contentAppear {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="top-space"></div>
+  <img src="https://i.ibb.co/S4R4j2Yd/Picsart-24-10-19-12-44-35-721.jpg" alt="Profile" class="profile-pic">
+  <div class="user-text">JUBAYER BOT USERS !!!</div>
+  <div class="naruto-text">XLX !!</div>
+  <div class="content">
+    <!-- Your other content goes here -->
+    <h1 style="color: white; text-align: center; margin-top: 30px;">Welcome to the JUBAYER-BOT!</h1>
+    <p style="color: white; text-align: center;">Enjoy the content and explore the site!</p>
+  </div>
+</body>
+</html>
